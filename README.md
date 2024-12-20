@@ -1,4 +1,4 @@
-# -Skip-gram-Word-Embedding-Model-with-PyTorch
+# Skip-gram-Word-Embedding-Model-with-PyTorch
 Developed a Skip-gram model from scratch using PyTorch to learn word embeddings for NLP tasks.
 
 The program implements a **Skip-gram neural network** for learning **word embeddings**—dense vector representations of words. It takes a simple text corpus, tokenizes it, generates training pairs (target word and context word), and trains an embedding layer to produce meaningful word representations.
