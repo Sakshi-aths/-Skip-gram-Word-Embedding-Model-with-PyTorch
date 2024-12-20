@@ -39,24 +39,6 @@ The program implements a **Skip-gram neural network** for learning **word embedd
     - After training, the learned embeddings are retrieved from the embedding layer.
     - For selected words, the embeddings are printed as dense numerical vectors.
 
----
 
-### **Output**:
 
-1. **Training Loss**:
-    - The loss reduces over epochs, showing that the model is learning meaningful embeddings.
-2. **Word Embeddings**:
-    - The program prints the embeddings for a few words (e.g., "nlp", "embeddings", "deep").
-    - Each word embedding is a dense vector of size `embedding_dim=50`.
-    
-    **Example**:
-    
-    ```makefile
-    makefile
-    Copy code
-    embeddings: [ 0.123 -0.456  0.789 ... -0.321]
-    
-    ```
-    
-3. **Saving Embeddings**:
-    - Learned embeddings are saved as a `.npy` file for later use.
+
